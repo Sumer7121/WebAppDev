@@ -1,0 +1,67 @@
+        /* Gradient styling for the hero section */
+        .hero {
+            background: rgba(0, 0, 0, 0.7); /* Transparent black background */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        /* Style for the hero text */
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: white; /* Change text color to white */
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: white; /* Change text color to white */
+        }
+
+        /* Add padding and margin for responsiveness */
+        .py-5 {
+            padding: 80px 0;
+        }
+
+        /* Additional styles for responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1.2rem;
+            }
+            .py-5 {
+                padding: 40px 0;
+            }
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+            color: white;
+            padding: 20px 0;
+        }
+
+        /* Style the login box */
+        .login-box {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+            background-color: black; /* Black background for login box */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white; /* Change text color to white */
+        }
+
+        /* Style the navbar */
+        .navbar.navbar-expand-lg.navbar-light.bg-light {
+            background-color: blue !important; /* Blue navbar background */
+        }
+
+        .navbar-brand {
+            color: white !important; /* Change text color to white */
+        }
